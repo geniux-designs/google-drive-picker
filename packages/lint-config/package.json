@@ -1,0 +1,12 @@
+{
+	"name": "@geniux/lint-config",
+	"type": "module",
+	"exports": {
+		"./base": "./base.jsonc",
+		"./nextjs": "./nextjs.jsonc",
+		"./react-library": "./react-library.jsonc"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1"
+	}
+}
