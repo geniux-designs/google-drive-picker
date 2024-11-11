@@ -80,6 +80,10 @@ importers:
         version: 5.5.4
 
   packages/google-drive-picker/react:
+    dependencies:
+      '@geniux/google-drive-picker-core':
+        specifier: workspace:*
+        version: link:../core
     devDependencies:
       '@geniux/lint-config':
         specifier: workspace:*

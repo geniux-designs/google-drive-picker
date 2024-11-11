@@ -16,7 +16,9 @@
     "lint:fix": "biome lint --write ."
   },
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "@geniux/google-drive-picker-core": "workspace:*"
+  },
   "peerDependencies": {
     "react": ">=17",
     "react-dom": ">=17"
