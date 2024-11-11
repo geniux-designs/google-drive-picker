@@ -2,6 +2,10 @@
   "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "extends": ["@geniux/lint-config/base", "@geniux/lint-config/nextjs"],
   "linter": {
-    "rules": {}
+    "rules": {
+      "style": {
+        "noNonNullAssertion": "off" // Disabled now because of ENV vars assertion in /app/drive-picker/page.tsx
+      }
+    }
   }
 }
