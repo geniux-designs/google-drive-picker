@@ -1,4 +1,5 @@
 import type { GoogleTokenClient, GoogleTokenClientConfig } from "./identity";
+import type { PickerBuilderConstructor } from "./picker";
 
 declare global {
 	interface Window {
@@ -11,7 +12,7 @@ declare global {
 				};
 			};
 			picker?: {
-				PickerBuilder: any;
+				PickerBuilder: PickerBuilderConstructor;
 				Action: {
 					PICKED: string;
 					CANCEL: string;
