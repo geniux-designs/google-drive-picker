@@ -113,7 +113,7 @@ With this configuration, Next.js will avoid attempting to load client-side scrip
 
 Refer to the [types](./src/types) for detailed type definitions and additional configuration options.
 
-Also, check the types in [@geniux/google-drive-picker-core](../../google-drive-picker-core/src/types) for more details on OAuth configurations.
+Also, check the types in [@geniux/google-drive-picker-core](../../google-drive-picker/core/src/types) for more details on OAuth configurations.
 
 ---
 
