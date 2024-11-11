@@ -1,6 +1,8 @@
 {
   "name": "google-drive-picker",
   "private": true,
+  "author": "Haukur Mar Bodvarsson",
+  "license": "MIT",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
