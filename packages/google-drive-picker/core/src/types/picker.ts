@@ -52,3 +52,25 @@ export type GoogleDriveScope =
 	| "https://www.googleapis.com/auth/drive.photos.readonly" // Read-only access to photos, videos, and albums in Google Photos
 	| "https://www.googleapis.com/auth/drive.readonly" // Read-only access to all Google Drive files
 	| "https://www.googleapis.com/auth/drive.scripts"; // Manage Google Apps Script
+
+// Interface representing the PickerBuilder instance
+export interface PickerBuilder {
+	addView: (viewId: string) => PickerBuilder;
+	setOAuthToken: (token: string) => PickerBuilder;
+	setDeveloperKey: (apiKey: string) => PickerBuilder;
+	setCallback: (
+		callback: (data: PickerCallbackData) => void,
+	) => PickerBuilder;
+	enableFeature: (feature: string) => PickerBuilder;
+	build: () => {
+		setVisible: (visible: boolean) => void;
+	};
+}
+
+export type PickerCallbackData = {
+	action?: string; // This remains string-typed until further refinement
+	docs: Array<GoogleDriveFile>;
+};
+
+// Type for the PickerBuilder constructor
+export type PickerBuilderConstructor = new () => PickerBuilder;

@@ -1,4 +1,8 @@
-import type { GoogleDriveFile, GoogleDrivePickerConfig } from "../types";
+import type {
+	GoogleDriveFile,
+	GoogleDrivePickerConfig,
+	PickerCallbackData,
+} from "../types";
 
 /**
  * Options required to create and display the Google Drive Picker.
@@ -33,10 +37,10 @@ const createPicker = (options: CreatePickerOptions) => {
 		)
 		.setOAuthToken(oauthToken)
 		.setDeveloperKey(apiKey)
-		.setCallback((data: any) => {
+		.setCallback((data: PickerCallbackData) => {
 			if (data.action === window.google?.picker?.Action?.PICKED) {
 				const files = data.docs.map(
-					(doc: any): GoogleDriveFile => ({
+					(doc): GoogleDriveFile => ({
 						id: doc.id,
 						serviceId: doc.serviceId,
 						mimeType: doc.mimeType,
