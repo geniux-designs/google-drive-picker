@@ -10,6 +10,30 @@ declare global {
 					) => GoogleTokenClient;
 				};
 			};
+			picker?: {
+				PickerBuilder: any;
+				Action: {
+					PICKED: string;
+					CANCEL: string;
+				};
+				ViewId: {
+					DOCS: string;
+					DOCS_IMAGES: string;
+					DOCS_VIDEOS: string;
+					SPREADSHEETS: string;
+					PRESENTATIONS: string;
+					FORMS: string;
+					FOLDERS: string;
+					PDFS: string;
+				};
+				Feature: {
+					MULTISELECT_ENABLED: string;
+					NAV_HIDDEN: string;
+					SIMPLE_UPLOAD_ENABLED: string;
+					MINE_ONLY: string;
+					SELECTABLE_MIME_TYPES: string;
+				};
+			};
 		};
 	}
 }

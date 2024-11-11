@@ -1,3 +1,5 @@
+import type { GoogleDriveScope } from "./picker";
+
 /**
  * Configuration for initializing the Google OAuth token client.
  * Specifies the client ID, OAuth scope, and callback to handle the token response.
@@ -20,4 +22,4 @@ export type GoogleTokenClient = {
 	requestAccessToken: () => void;
 };
 
-export type GoogleOAuthScope = string;
+export type GoogleOAuthScope = GoogleDriveScope | string; // string to allow other scopes that we don't type here
