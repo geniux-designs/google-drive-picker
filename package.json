@@ -16,7 +16,7 @@
     "@biomejs/biome": "^1",
     "@geniux/lint-config": "workspace:*"
   },
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@9.12.3",
   "engines": {
     "node": ">=18"
   }
