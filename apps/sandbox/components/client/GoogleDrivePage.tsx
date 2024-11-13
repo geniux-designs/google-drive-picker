@@ -51,7 +51,7 @@ const GoogleDriveClientTest = () => {
 					<h2>Selected Files:</h2>
 					<ul>
 						{selectedFiles.map((file, index) => (
-							<li key={index}>
+							<li key={file.id}>
 								<strong>{file.name}</strong> - ID: {file.id}
 							</li>
 						))}
