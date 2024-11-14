@@ -1,0 +1,19 @@
+{
+  "name": "@geniux/semantic-release-bumper-plugin",
+  "version": "1.0.0",
+  "private": false,
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write ."
+  },
+  "dependencies": {
+    "@semantic-release/error": "^3"
+  },
+  "devDependencies": {
+    "semantic-release": "^24"
+  },
+  "peerDependencies": {
+    "semantic-release": "^24"
+  }
+}
