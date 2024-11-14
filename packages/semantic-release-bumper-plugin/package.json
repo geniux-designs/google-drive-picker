@@ -1,8 +1,11 @@
 {
   "name": "@geniux/semantic-release-bumper-plugin",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": false,
-  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
   "scripts": {
     "lint": "biome lint .",
     "lint:fix": "biome lint --write ."
