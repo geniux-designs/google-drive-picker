@@ -13,6 +13,11 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "release": {
+      "dependsOn": ["^release"],
+      "env": ["NPM_TOKEN", "GITHUB_TOKEN"],
+      "cache": false
     }
   }
 }

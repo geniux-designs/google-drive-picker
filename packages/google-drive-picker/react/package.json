@@ -1,23 +1,36 @@
 {
   "name": "@geniux/google-drive-picker-react",
   "private": false,
-  "version": "0.0.0",
+  "version": "1.0.0-next.6",
   "author": "Haukur Mar Bodvarsson",
   "license": "MIT",
   "description": "",
+  "packageManager": "pnpm@9.12.3",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "exports": {
     ".": "./src/index.ts"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geniux-designs/google-drive-picker"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup --config ./tsup.config.ts",
     "lint": "biome lint .",
-    "lint:fix": "biome lint --write ."
+    "lint:fix": "biome lint --write .",
+    "release": "semantic-release --dry-run"
   },
   "keywords": [],
   "dependencies": {
-    "@geniux/google-drive-picker-core": "workspace:*"
+    "@geniux/google-drive-picker-core": "^1.0.0-next.1"
   },
   "peerDependencies": {
     "react": ">=17",
@@ -26,12 +39,20 @@
   "devDependencies": {
     "@geniux/lint-config": "workspace:*",
     "@geniux/typescript-config": "workspace:*",
+    "@semantic-release/changelog": "^6",
+    "@semantic-release/exec": "^6",
+    "@semantic-release/git": "^10",
+    "@semantic-release/github": "^11",
     "@types/node": "^20",
-    "react": "^18",
-    "react-dom": "^18",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "conventional-changelog-conventionalcommits": "^8",
+    "react": "^18",
+    "react-dom": "^18",
+    "semantic-release": "^24",
+    "semantic-release-monorepo": "^8",
     "tsup": "^8",
+    "turbo": "^2",
     "typescript": "^5"
   }
 }
