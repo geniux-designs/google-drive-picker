@@ -4,9 +4,10 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - next
       - main
+      - alpha
       - beta
+      - next
 
 permissions:
   contents: write # to be able to publish a GitHub release
