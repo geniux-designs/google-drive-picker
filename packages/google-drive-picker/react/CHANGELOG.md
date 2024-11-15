@@ -2,6 +2,39 @@
 
  @geniux/google-drive-picker-react
 
+## @geniux/google-drive-picker-react-v1.0.0-alpha.1 (2024-11-15)
+
+### 🚀 Features
+
+* **react:** add Google Drive Picker provider for context management ([ce4b4fe](https://github.com/geniux-designs/google-drive-picker/commit/ce4b4fe2b1e9df37a1ba751feb235b172b0372c4))
+* **react:** add useGoogleDrivePicker hook for Google Drive Picker ([2364878](https://github.com/geniux-designs/google-drive-picker/commit/236487826f026074f9915b49ff9ee99e8dff98ea))
+* **react:** added useGoogleScripts hook for dynamic script loading ([c8d72a1](https://github.com/geniux-designs/google-drive-picker/commit/c8d72a10e9add4d8f1e20148ecfec2993c9d8fcd))
+* **react:** dummy release ([c6217a4](https://github.com/geniux-designs/google-drive-picker/commit/c6217a4c64b3b7335550a44c14cb864cbe928fc5))
+* with bumper plugin ([76a1d5a](https://github.com/geniux-designs/google-drive-picker/commit/76a1d5a203f524d804b598e0a5d648b922efc80d))
+
+### 🐞 Bug Fixes
+
+* disabled revert ([1a989ca](https://github.com/geniux-designs/google-drive-picker/commit/1a989ca242ac0a4ed4881aaf1da4196a5d6632ee))
+* **react:** correct export files ([8fa3a08](https://github.com/geniux-designs/google-drive-picker/commit/8fa3a081118b8008e45a8fcb6d95b21d71e7aaff))
+
+### 📝 Documentation
+
+* fixed wrong link in react documentation ([4eddd60](https://github.com/geniux-designs/google-drive-picker/commit/4eddd60c90f0e8330ccc1d57114c4b247bc77965))
+* **react:** added readme and licence file ([f3f31c1](https://github.com/geniux-designs/google-drive-picker/commit/f3f31c1b216124f8772356ed97991250b615dd8d))
+
+### 👷 CI
+
+* added release process & github workflow ([50e1593](https://github.com/geniux-designs/google-drive-picker/commit/50e1593f2377d4231328033f414565a5847dd1e5))
+* fixed invalid release file ([5bd64a0](https://github.com/geniux-designs/google-drive-picker/commit/5bd64a01a9826aed5f176e020ffcb701b9320587))
+
+### 🔧 Chore
+
+* added MIT license and author to package.json ([cf356a1](https://github.com/geniux-designs/google-drive-picker/commit/cf356a19a3e603f9d2b46919fd2ade98cc5bc15a))
+* **release:** 1.0.0-beta.1 [skip ci] ([ea41086](https://github.com/geniux-designs/google-drive-picker/commit/ea4108694796086b938712fcb91559c4cb78e7aa))
+* **release:** 1.0.0-beta.2 [skip ci] ([53823b6](https://github.com/geniux-designs/google-drive-picker/commit/53823b6b730080e567b1a5ddaf3bd4b030efc3f4))
+* **release:** 1.0.0-next.6 [skip ci] ([1876419](https://github.com/geniux-designs/google-drive-picker/commit/1876419da9d71ac7368f4ab7335ee1c06bfab827))
+* setup empty google-drive-picker packages ([e0790c8](https://github.com/geniux-designs/google-drive-picker/commit/e0790c8b8bc74d9b5d3c51138e16d479718bdf34))
+
 ## [@geniux/google-drive-picker-react-v1.0.0-beta.2](https://github.com/geniux-designs/google-drive-picker/compare/@geniux/google-drive-picker-react-v1.0.0-beta.1...@geniux/google-drive-picker-react-v1.0.0-beta.2) (2024-11-15)
 
 ### 🐞 Bug Fixes

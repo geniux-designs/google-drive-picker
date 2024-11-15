@@ -1,7 +1,7 @@
 {
   "name": "@geniux/google-drive-picker-react",
   "private": false,
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-alpha.1",
   "author": "Haukur Mar Bodvarsson",
   "license": "MIT",
   "description": "",
