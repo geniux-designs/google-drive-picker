@@ -11,10 +11,7 @@
   "exports": {
     ".": "./src/index.ts"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
+  "files": ["dist", "README.md"],
   "repository": {
     "type": "git",
     "url": "https://github.com/geniux-designs/google-drive-picker"
@@ -26,7 +23,7 @@
     "build": "tsup --config ./tsup.config.ts",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
-    "release2": "semantic-release --dry-run"
+    "release": "semantic-release"
   },
   "keywords": [],
   "peerDependencies": {
