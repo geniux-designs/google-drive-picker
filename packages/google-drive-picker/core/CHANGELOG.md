@@ -2,7 +2,7 @@
 
  @geniux/google-drive-picker-core
 
-## @geniux/google-drive-picker-core-v1.0.0-next.1
+## @geniux/google-drive-picker-core-v1.0.0-beta.1
 ### 🚀 Features
 
 * **core:** dummy release ([1775bba](https://github.com/geniux-designs/google-drive-picker/commit/1775bba924102f49995fd32b3e3d854ea569b172))

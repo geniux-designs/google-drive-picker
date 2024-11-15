@@ -1,7 +1,7 @@
 {
   "name": "@geniux/google-drive-picker-core",
   "private": false,
-  "version": "1.0.0-next.1",
+  "version": "1.0.0-beta.1",
   "author": "Haukur Mar Bodvarsson",
   "license": "MIT",
   "description": "",
