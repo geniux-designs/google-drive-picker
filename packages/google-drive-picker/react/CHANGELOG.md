@@ -2,6 +2,12 @@
 
  @geniux/google-drive-picker-react
 
+## [@geniux/google-drive-picker-react-v1.0.0-beta.2](https://github.com/geniux-designs/google-drive-picker/compare/@geniux/google-drive-picker-react-v1.0.0-beta.1...@geniux/google-drive-picker-react-v1.0.0-beta.2) (2024-11-15)
+
+### 🐞 Bug Fixes
+
+* disabled revert ([c14f77b](https://github.com/geniux-designs/google-drive-picker/commit/c14f77bddff3fb243cd7a1a7f98eb631d1aa7a98))
+
 ## @geniux/google-drive-picker-react-v1.0.0-beta.1 (2024-11-15)
 
 ### 🚀 Features
