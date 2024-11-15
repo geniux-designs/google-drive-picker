@@ -23,7 +23,7 @@
     "build": "tsup --config ./tsup.config.ts",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
-    "release": "semantic-release --dry-run"
+    "release": "semantic-release"
   },
   "keywords": [],
   "dependencies": {
