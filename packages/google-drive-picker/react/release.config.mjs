@@ -6,6 +6,7 @@ export default {
   ci: false,
   branches: [
     "main",
+    { name: "alpha", prerelease: true },
     { name: "beta", prerelease: true },
     { name: "next", prerelease: true },
     { name: "feature/*", prerelease: "${name.replace(/\\//, '-')}" },
@@ -47,20 +48,17 @@ export default {
       replaceDevDeps: false
     }],
     "@semantic-release/npm",
+    // Second run: Revert to workspace:*
+    ['@geniux/semantic-release-bumper-plugin', {
+      replaceDevDeps: false,
+      revertOnly: true
+    }],
     [
-		// Second run: Revert to workspace:*
-		['@geniux/semantic-release-bumper-plugin', {
-			replaceDevDeps: false,
-			revertOnly: true
-		  },
-		  [
-			"@semantic-release/git",
-			{
-				assets: ["./CHANGELOG.md", "./package.json"],
-				message: "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
-			},
-		  ]
-		],
+      "@semantic-release/git",
+      {
+        assets: ["./CHANGELOG.md", "./package.json"],
+        message: "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+      },
     ],
     [
       "@semantic-release/github",
