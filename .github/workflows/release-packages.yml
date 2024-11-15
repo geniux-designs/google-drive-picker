@@ -6,6 +6,7 @@ on:
     branches:
       - next
       - main
+      - beta
 
 permissions:
   contents: write # to be able to publish a GitHub release
