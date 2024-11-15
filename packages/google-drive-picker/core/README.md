@@ -9,7 +9,7 @@ This package provides foundational functionality designed to support integration
 
 ## Use in Framework-Specific Integrations
 
-This core package is designed to support framework-specific packages, such as [@geniux/google-drive-picker-react](../react), which provides a ready-to-use implementation for React applications.
+This core package is designed to support framework-specific packages, such as [@geniux/google-drive-picker-react](https://github.com/geniux-designs/google-drive-picker/tree/main/packages/google-drive-picker/react), which provides a ready-to-use implementation for React applications.
 
 Developers using other frameworks can leverage this core package to build their own integrations or make a Pull Request here 😉
 

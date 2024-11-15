@@ -8,16 +8,25 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "lint:fix": "turbo lint:fix",
-    "format": "turbo lint"
+    "format": "turbo lint",
+    "manypkg": "manypkg fix",
+    "release": "turbo run release --concurrency=1"
   },
   "dependencies": {
-    "turbo": "^2.2.3",
-    "typescript": "5.5.4",
     "@biomejs/biome": "^1",
-    "@geniux/lint-config": "workspace:*"
+    "@geniux/lint-config": "workspace:*",
+    "@manypkg/cli": "^0.22.0",
+    "@semantic-release/changelog": "^6",
+    "@semantic-release/git": "^10",
+    "@semantic-release/github": "^11",
+    "semantic-release": "^24",
+    "semantic-release-monorepo": "^8",
+    "conventional-changelog-conventionalcommits": "^8",
+    "turbo": "^2",
+    "typescript": "^5"
   },
   "packageManager": "pnpm@9.12.3",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   }
 }

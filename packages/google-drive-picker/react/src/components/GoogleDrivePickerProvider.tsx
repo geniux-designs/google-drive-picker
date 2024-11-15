@@ -83,9 +83,7 @@ const GoogleDrivePickerProvider: FC<GoogleDrivePickerProviderProps> = ({
 		setScriptsLoaded(true);
 		setLoadError(null);
 		if (window.gapi) {
-			window.gapi.load("client:picker", () => {
-				console.log("Google Picker API is initialized");
-			});
+			window.gapi.load("client:picker", () => {});
 		}
 	};
 

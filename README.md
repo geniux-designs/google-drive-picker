@@ -2,6 +2,10 @@
 
 This monorepo contains packages for integrating Google Drive Picker with Google Identity Services, supporting various framework-specific implementations.
 
+[![Run Lint](https://github.com/geniux-designs/google-drive-picker/actions/workflows/run-lint.yml/badge.svg)](https://github.com/geniux-designs/google-drive-picker/actions/workflows/run-lint.yml)
+[![Release Packages](https://github.com/geniux-designs/google-drive-picker/actions/workflows/release-packages.yml/badge.svg)](https://github.com/geniux-designs/google-drive-picker/actions/workflows/release-packages.yml)
+---
+
 ## Getting Started
 
 Each package has its own README.md with installation instructions, usage details, and API documentation. Refer to these individual package documentation files for comprehensive guidance.

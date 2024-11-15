@@ -1,6 +1,5 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "ui": "tui",
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
@@ -13,6 +12,11 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "release": {
+      "dependsOn": ["^release"],
+      "env": ["NPM_TOKEN", "GITHUB_TOKEN"],
+      "cache": false
     }
   }
 }
