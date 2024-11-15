@@ -3,7 +3,7 @@
   "extends": ["//"],
   "tasks": {
     "release": {
-      "dependsOn": ["^build", "@geniux/google-drive-picker-core#release"]
+      "dependsOn": ["^build"]
     }
   }
 }

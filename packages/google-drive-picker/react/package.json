@@ -11,10 +11,7 @@
   "exports": {
     ".": "./src/index.ts"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
+  "files": ["dist", "README.md"],
   "repository": {
     "type": "git",
     "url": "https://github.com/geniux-designs/google-drive-picker"
@@ -30,7 +27,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "@geniux/google-drive-picker-core": "^1.0.0-next.1"
+    "@geniux/google-drive-picker-core": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=17",
@@ -39,6 +36,7 @@
   "devDependencies": {
     "@geniux/lint-config": "workspace:*",
     "@geniux/typescript-config": "workspace:*",
+    "@geniux/semantic-release-bumper-plugin": "workspace:*",
     "@semantic-release/changelog": "^6",
     "@semantic-release/exec": "^6",
     "@semantic-release/git": "^10",

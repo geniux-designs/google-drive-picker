@@ -26,7 +26,7 @@
     "build": "tsup --config ./tsup.config.ts",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
-    "release": "semantic-release --dry-run"
+    "release2": "semantic-release --dry-run"
   },
   "keywords": [],
   "peerDependencies": {

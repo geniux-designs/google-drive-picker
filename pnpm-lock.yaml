@@ -127,8 +127,8 @@ importers:
   packages/google-drive-picker/react:
     dependencies:
       '@geniux/google-drive-picker-core':
-        specifier: ^1.0.0-next.1
-        version: 1.0.0-next.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: workspace:*
+        version: link:../core
     devDependencies:
       '@geniux/lint-config':
         specifier: workspace:*
@@ -416,12 +416,6 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
-
-  '@geniux/google-drive-picker-core@1.0.0-next.1':
-    resolution: {integrity: sha512-vPgXJQQl7fsIZyoF0soD77kFYbxTHIhms8+QDll8i5m3t7j5lssHvDA9sOOI+d/h0eSCwhEkKFz0u+SR4djkcQ==}
-    peerDependencies:
-      react: '>=17'
-      react-dom: '>=17'
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2616,11 +2610,6 @@ snapshots:
 
   '@esbuild/win32-x64@0.24.0':
     optional: true
-
-  '@geniux/google-drive-picker-core@1.0.0-next.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
