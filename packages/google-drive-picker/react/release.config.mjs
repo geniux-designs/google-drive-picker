@@ -48,10 +48,10 @@ export default {
     }],
     "@semantic-release/npm",
     // Second run: Revert to workspace:*
-    ['@geniux/semantic-release-bumper-plugin', {
+    /* ['@geniux/semantic-release-bumper-plugin', {
       replaceDevDeps: false,
       revertOnly: true
-    }],
+    }], */
     [
       "@semantic-release/git",
       {
