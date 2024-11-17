@@ -1,7 +1,7 @@
 {
   "name": "@geniux/google-drive-picker-react",
   "private": false,
-  "version": "1.0.0-alpha.20",
+  "version": "1.0.0",
   "author": "Haukur Mar Bodvarsson",
   "license": "MIT",
   "description": "",
@@ -35,7 +35,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "@geniux/google-drive-picker-core": "workspace:*"
+    "@geniux/google-drive-picker-core": "^1.0.0"
   },
   "peerDependencies": {
     "react": ">=17",
